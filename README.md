@@ -14,6 +14,7 @@ Install di Termux 👨‍💻:
 6. tinggal masukin aja pairing nya
 
 ///////////////////////////////////////////
+
 Thanks 🙏
 - Whiskeysocket/Baileys
 - Tanaka Sensei
