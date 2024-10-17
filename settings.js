@@ -34,6 +34,7 @@ global.idch = '120363285176234746@newsletter'
 global.prefa = ['/','!','.','#','&']
  
 global.welcome = true 
+global.autoswview = true
 
 //Global Message 
 global.mess = {
