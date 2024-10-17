@@ -508,34 +508,6 @@ fs.readFile(namaFile, 'utf8', (err, data) => {
 
 }
 break
-case 'upch-audio':{
-if (!isCreator) return m.reply(mess.owner)
-if (!/video/.test(mime) && !/audio/.test(mime)) return m.reply(`Use ${prefix+command} Judul Lagu|Terserah\n\nExample ${prefix+command} Mungkin | Kita Sad Dulu`) 
-  lilychan.sendMessage(m.chat, { react: { text: '🕐', key: m.key }})
-  ngawi = text.split("|")[0]
-  jomokck = text.split("|")[1]
-  await sleep(6000)
-lilychan.sendMessage(`${global.idch}`,{audio: await quoted.download(),mimetype: 'audio/mp4',ptt: true,
-contextInfo: {
-mentionedJid: [m.sender],
-forwardingScore: 9999, 
-isForwarded: true, 
-forwardedNewsletterMessageInfo: {
-newsletterJid: '120363285176234746@newsletter',
-serverMessageId: 20,
-newsletterName: '❃ Lilychanj - Assistant'
-}, externalAdReply: {
-title: ngawi, 
-body: jomokck,
-thumbnailUrl: "https://files.catbox.moe/vikf6c.jpg", 
-sourceUrl: null,
-mediaType: 1
-}, }})          
-//lilychan.sendMessage(`${global.idch}`,{audio: await quoted.download(), mimetype: 'audio/mp4', ptt: true})
-await sleep(2000)
-lilychan.sendMessage(m.chat, { react: { text: '✅', key: m.key, }})
-}
-break
 case 'disk': {
   let cp = require ('child_process')
 let { promisify } = require ('util')
