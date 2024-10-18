@@ -86,7 +86,6 @@ const pushname = m.pushName || "No Name";
 const botNumber = await lilychan.decodeJid(lilychan.user.id);
 const type = m
 const sender = m.sender
-const isSewa = _sewa.checkSewaGroup(from, sewa)
 const senderNumber = sender.split('@')[0]
 const isCreator = (m && m.sender && [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)) || false;
 const itsMe = (m && m.sender && m.sender == botNumber) || false;
@@ -99,8 +98,6 @@ m.quoted || m;
 const mime = ((quoted?.msg || quoted) || {}).mimetype || '';
 const qmsg = (quoted?.msg || quoted);
 const isMedia = /image|video|sticker|audio/.test(mime);
-const mute = m.isGroup ? mut.includes(from) : false
-const banchat = m.isGroup ? chatband.includes(from) : false
 const isImage = (type === 'imageMessage')
 const isVideo = (type === 'videoMessage')
 const isSticker = (type == 'stickerMessage')
@@ -113,17 +110,10 @@ const groupAdmins = m.isGroup ? await getGroupAdmins(participants) || [] : [];
 const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : false;
 const isBot = botNumber.includes(senderNumber)
 const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false;
-const isPremium = isCreator || isCreator || checkPremiumUser(m.sender, premium);
-        expiredCheck(lilychan, m, premium);
 const groupOwner = m.isGroup ? groupMetadata.owner || '' : '';
 const isGroupOwner = m.isGroup ? (groupOwner ? groupOwner : groupAdmins).includes(m.sender) : false;
-const SimiActive = m.isGroup ? simion.includes(from) : false
 const froms = m.quoted ? m.quoted.sender : text ? (text.replace(/[^0-9]/g, '') ? text.replace(/[^0-9]/g, '') + '@s.whatsapp.net' : false) : false;
 const isMediaLily = m.mtype
-//dibawah ini ada beberapa fungsi 
-const antilinkngawi = m.isGroup ? ntlinkgc.includes(m.chat) : false
-const Antibatu = m.isGroup ? ntstone.includes(m.chat) : false
-const Antisticker = m.isGroup ? ntsticker.includes(m.chat) : false
 //================== [ TIME ] ==================//
 const hariini = moment.tz('Asia/Jakarta').format('dddd, DD MMMM YYYY')
 const wib = moment.tz('Asia/Jakarta').format('HH : mm : ss')
