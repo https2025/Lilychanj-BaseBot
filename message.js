@@ -399,7 +399,7 @@ let menulist = `┌  ◦ *MENU*
 └  ◦ ${prefix}ping
 `
    lilychan.sendMessage(m.chat, {
-      text: `${teksmenu}\n\n${allmenu(prefix)}`,
+      text: menulist,
              contextInfo: { 
                mentionedJid: [m.sender, owner+"@s.whatsapp.net", "0@s.whatsapp.net"], 
                    externalAdReply: {
