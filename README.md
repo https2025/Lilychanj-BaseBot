@@ -1,20 +1,4 @@
-Install di Pannel ⚙️:
-1. add file dipanel
-2. jika sudah masukan cmd npm start
-3. keluar code pairing, masukan kode pairing ke nomor yg mau jadibot
+<h1 align="center">LILYCHANJ BASE BOT WHATSAPP</h1>
 
-
-Install di Termux 👨‍💻:
-1. pkg install git
-2. git clone https://github.com/tanakasenn/Lilychanj-BaseBot
-3. cd Lilychanj-BaseBot 
-4. npm i
-5. npm start
-6. tinggal masukin aja pairing nya
-
-///////////////////////////////////////////
-
-Thanks 🙏
-- Whiskeysocket/Baileys
-- Tanaka Sensei
-- Dll
+![alt text](https://k.top4top.io/p_3234vu2qp1.jpg?raw=true)
+<h3 align="center">Use in Termux</h3>
