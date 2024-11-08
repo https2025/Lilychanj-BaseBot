@@ -1,9 +1,8 @@
+## LILYCHANJ BASE BOT WHATSAPP
 ![alt text](https://k.top4top.io/p_3234vu2qp1.jpg?raw=true)
 
-## LILYCHANJ BASE BOT WHATSAPP
 ## How to run scripts in termux application:
 
-## The steps
 1. Buka aplikasi `Termux`;
 2. Enter Command **$git clone** lalu tempelkan url `https://github.com/TanakaDomp/Lilychanj-BaseBot.git` untuk mengkloning  script yang ada di repo ini.
 3. Enter **$npm i** di consol termux.
