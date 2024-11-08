@@ -4,8 +4,8 @@
 ## How to run scripts in termux application:
 
 ## The steps
-1. **Buka aplikasi Termux;
-2. Enter Command **$git clone** lalu tempelkan url **https://github.com/TanakaDomp/Lilychanj-BaseBot.git** untuk mengkloning  script yang ada di repo ini.
+1. Buka aplikasi `Termux`;
+2. Enter Command **$git clone** lalu tempelkan url `https://github.com/TanakaDomp/Lilychanj-BaseBot.git` untuk mengkloning  script yang ada di repo ini.
 3. Enter **$npm i** di consol termux.
 4. Tunggu untuk beberapa saat.
 5. Setelah itu silahkan untuk enter, **$ npm start** ini akan menjalankan script yang sudah terkloning tadi.
