@@ -28,7 +28,7 @@ global.author = `At ${hariini}\n${time}` // ubah aja ini nama sticker
 global.themeemoji = '🍁'
 global.wm = " TanakaSense.js."
 global.urldb = ''; // kosongin aja
-global.idch = '120363285176234746@newsletter'
+global.idch = '120363339486995304@newsletter'
 
 //custom prefix
 global.prefa = ['/','!','.','#','&']
