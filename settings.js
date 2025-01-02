@@ -9,16 +9,16 @@ const hariini = moment.tz('Asia/Jakarta').format('dddd, DD MMMM YYYY')
 const time = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('HH:mm:ss z')
 
 //PAIRING CODE
-global.pairing = '6281541177589'
+global.pairing = '6287760550924'
 //contact details
-global.owner = ['6281541177589'] // ubah aja pake nomor lu
-global.owner0 = '6281541177589@s.whatsapp.net'
-global.nomerowner = ["6285658939117"]
-global.ownername = "Tanaka Sense"
+global.owner = ['6287760550924'] // ubah aja pake nomor lu
+global.owner0 = '6287760550924@s.whatsapp.net'
+global.nomerowner = ["6287760550924"]
+global.ownername = "Gima"
 
-global.ownernumber = '6281541177589'  //creator number
+global.ownernumber = '6287760550924'  //creator number
 global.ownername = 'Tanaka Sense' //owner name
-global.botname = 'Tanaka Ngawi' //name of the bot
+global.botname = 'Gima' //name of the bot
 
 //sticker details
 global.packname = 'TanakaSense.js' // ubah aja ini nama sticker
